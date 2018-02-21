@@ -103,7 +103,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "com.invertase.rnfirebasestarter"
+        applicationId "com.mycompany.mymobiletest"
         minSdkVersion 16
         targetSdkVersion 22
         versionCode 1
@@ -144,6 +144,10 @@ android {
                         versionCodes.get(abi) * 1048576 + defaultConfig.versionCode
             }
         }
+    }
+
+    lintOptions {
+        abortOnError false
     }
 }
 

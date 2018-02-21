@@ -1,4 +1,4 @@
-package com.invertase.rnfirebasestarter;
+package com.mycompany.mymobiletest;
 
 import android.app.Application;
 
